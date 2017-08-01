@@ -1,0 +1,182 @@
+html, body {
+    height: 100vh !important;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    min-width: 366px;
+    overflow-x: hidden;
+    /*background-image: url(../img/example.jpg);*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /*background-attachment: fixed;*/
+    -webkit-transition: width 0.5s; /* Safari */
+}
+
+.submitBtn{
+    font-size: 18px;
+    background-color:#56b85a;
+    border: none; padding: 5px 15px 5px 15px;
+    color: #ffffff;
+    border-radius: 0px !important;
+}
+
+.downloadBtn{
+    font-size: 24px;
+    background-color:#56b85a;
+    border: none;
+    padding: 30px 30px 30px 30px;
+    color: #ffffff;
+    border-radius: 0px !important;
+}
+
+.downloadBtn:hover {
+    background-color: #3e8e41;
+    color: #ffffff;
+}
+
+.submitBtn:hover {
+    background-color: #3e8e41;
+    color: #ffffff;
+}
+
+#upload {
+    border-radius: 10px;
+    font-size: 15px !important;
+}
+
+.step{
+    display: block;
+    border-radius: 30px;
+    border: 1px solid #BADA55;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    margin-left: -30px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    font-size: 30px;
+    background-color: #56b85a;
+    color: #FFF;
+}
+
+.howTo img{
+    width: 225px;
+    height: 225px;
+}
+.howToDiv span>strong{
+     color:#56b85a;
+ }
+
+.howToDiv p{
+    font-size: 16px;
+    color: #666666;
+}
+
+@media (max-width: 720px){
+    .wrapper {
+        height: 100% !important;
+    }
+
+    html, body{
+        overflow-y: scroll !important;
+    }
+    #footer{
+        position:relative !important;
+    }
+
+}
+.downloadPage {
+    padding-top: 50px !important;
+}
+
+@media (max-width: 500px){
+    .downloadPage {
+        padding-top: 50px !important;
+    }
+}
+
+.wrapper{
+    color: #6a6a6a
+}
+
+
+.wrapper span>a {
+    font-size: 24px;
+}
+
+.uniLogo a>img:hover {
+    border: none #6a6a6a;
+    box-shadow: 1px 1px 5px #6a6a6a;
+    transition: all 100ms ease;
+    cursor: hand;
+}
+
+#small-logo{
+        display: none;
+    }
+
+.title h1 {
+    width: 350px;
+    height: 160px;
+    background: url(../img/Logo_Course2Cal_New_2.png) no-repeat;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    margin: auto;
+}
+
+.choiceLabel{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.choiceLabel a:hover{
+    color: #56b85a;
+    font-weight: 400;
+}
+
+
+#footer{
+    color: #6a6a6a;
+    font-size: 14px;
+    left:0;
+    right:0;
+    bottom: 0;
+    text-align: center;
+}
+
+a {
+    color: #3e8e41;
+    -webkit-transition: all 225ms ease;
+    -moz-transition: all 225ms ease;
+    transition: all 225ms ease;
+}
+
+a:hover {
+    color: #6a6a6a; !important;
+}
+
+
+.social a {
+    color: #56b85a !important;
+}
+
+.social a:hover {
+    color: #6a6a6a; !important;
+}
+input[type=text], textarea {
+    color:black;
+    opacity: .9;
+}
+
+.dropbtn {
+    background-color: #56b85a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
